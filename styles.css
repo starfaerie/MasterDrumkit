@@ -1,0 +1,24 @@
+#blueline {
+    background-color:#42C7F1;
+    padding-bottom:2px;
+}
+#mainbody {
+    background:#404040;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+#subheader {
+    color: #e3e3e3;
+}
+#highlight {
+    color: #42c7f1;
+}
+.banner {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.center {
+    margin: auto;
+    width: 80%;
+}
