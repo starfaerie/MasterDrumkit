@@ -9,16 +9,61 @@
 }
 #subheader {
     color: #e3e3e3;
+    padding-top: 20px;
 }
 #highlight {
     color: #42c7f1;
 }
 .banner {
+    background-color:#ffffff;
     margin: auto;
-    width: 100%;
+    width: 50%;
     padding: 10px;
 }
 .center {
     margin: auto;
-    width: 80%;
+    width: 50%;
 }
+.video {
+    max-width:100%;
+    padding-top:0;
+    padding-bottom:0;
+    margin:0 auto;
+    float:left;
+    border: 0px solid #fff;
+    margin-bottom: 20px;
+}
+ul {
+    margin: auto;
+    list-style:none;
+}
+li {
+    padding: .3em 0 1em 20px;
+    background-image: url(https://web.archive.org/web/20160609154231im_/http://liveoffmusic.com/wp-content/uploads/2014/01/check4.png);
+    background-repeat:no-repeat;
+    background-size:32px 32px;
+    font-size:14px;
+    font-style:normal;
+    font-weight:normal;
+    color: #e3e3e3;
+}
+
+ /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+} 
