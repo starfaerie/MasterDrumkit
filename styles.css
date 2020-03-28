@@ -1,46 +1,6 @@
-#blueline {
-    background-color:#42C7F1;
-    padding-bottom:2px;
-}
-#mainbody {
-    background:#404040;
-    padding-top:20px;
-    padding-bottom:10px;
-}
-#subheader {
-    color: #e3e3e3;
-    padding-top: 20px;
-    font-size:28px;
-    font-weight:bold;
-}
-#highlight {
-    color: #42c7f1;
-}
-.banner {
-    background-color:#ffffff;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-.center {
-    margin: auto;
-    width: 50%;
-}
-.fixed-width {
-    padding-right: 20%;
-}
-.video {
-    max-width:100%;
-    padding-top:0;
-    padding-bottom:0;
-    margin:0 auto;
-    float:left;
-    border: 0px solid #fff;
-    margin-bottom: 20px;
-}
-.element {
-    padding: 0px;
-    margin: 0px;
+/* DEFAULTS */
+form {
+    margin-top: 10px;
 }
 button {
     text-align: center;
@@ -79,7 +39,61 @@ li {
     text-align: left;
 }
 
- /* Create two equal columns that floats next to each other */
+/* IDs */
+#blueline {
+    background-color:#42C7F1;
+    padding-bottom:2px;
+}
+#mainbody {
+    background:#404040;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+#subheader {
+    color: #e3e3e3;
+    padding-top: 20px;
+    font-size:28px;
+    font-weight:bold;
+}
+#highlight {
+    color: #42c7f1;
+}
+#margin {
+    padding-top: 10px;
+}
+
+/* Classes */
+.banner {
+    background-color:#ffffff;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.element {
+    padding: 0px;
+    margin: 0px;
+}
+.center {
+    margin: auto;
+    width: 50%;
+}
+.fixed-width {
+    padding-right: 20%;
+}
+.video {
+    max-width:100%;
+    padding-top:0;
+    padding-bottom:0;
+    margin:0 auto;
+    float:left;
+    border: 0px solid #fff;
+    margin-bottom: 20px;
+}
+.text-box {
+    width:100%;
+    border-radius: 6px;
+}
+/* Create two equal columns that floats next to each other */
 .column-left {
     width: 556px;
     max-width: 100%;
@@ -90,8 +104,7 @@ li {
     max-width: 100%;
     float: left;
 }
-  
-  /* Clear floats after the columns */
+/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
