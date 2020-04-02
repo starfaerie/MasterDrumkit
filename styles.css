@@ -58,6 +58,9 @@ p {
     color:#eeebdd;
     line-height:22px;
 }
+a {
+    color: #42c7f1;
+}
 
 /* IDs */
 #blueline {
